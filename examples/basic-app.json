@@ -1,0 +1,7 @@
+{
+  "name": "basic-araport-app",
+  "description": "An example science application for the Araport platform",
+  "html": "app.html",
+  "scripts": "scripts/app.js",
+  "styles": "styles/app.css"
+}
