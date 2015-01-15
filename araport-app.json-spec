@@ -1,9 +1,13 @@
 {
-  "id": "https://www.araport.org/araport-app#",
+  "id": "https://www.araport.org/araport-app",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Schema for Araport Science Apps",
   "type": "object",
   "properties": {
+    "namespace": {
+      "id": "https://www.araport.org/araport-app/namespace",
+      "type": "string"
+    },
     "name": {
       "id": "https://www.araport.org/araport-app/name",
       "type": "string"
@@ -14,18 +18,31 @@
     },
     "html": {
       "id": "https://www.araport.org/araport-app/html",
-      "type": "string"
+      "type": "array",
+      "items": {
+        "id": "https://www.araport.org/araport-app/html/0",
+        "type": "string"
+      }
     },
     "scripts": {
       "id": "https://www.araport.org/araport-app/scripts",
-      "type": "string"
+      "type": "array",
+      "items": {
+        "id": "https://www.araport.org/araport-app/scripts/0",
+        "type": "string"
+      }
     },
     "styles": {
       "id": "https://www.araport.org/araport-app/styles",
-      "type": "string"
+      "type": "array",
+      "items": {
+        "id": "https://www.araport.org/araport-app/styles/0",
+        "type": "string"
+      }
     }
   },
   "required": [
+    "namespace",
     "name",
     "html",
     "scripts",

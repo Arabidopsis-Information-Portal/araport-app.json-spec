@@ -1,7 +1,8 @@
 {
   "name": "basic-araport-app",
+  "namespace": "araport",
   "description": "An example science application for the Araport platform",
-  "html": "app.html",
-  "scripts": "scripts/app.js",
-  "styles": "styles/app.css"
+  "html": ["app.html"],
+  "scripts": ["scripts/app.js"],
+  "styles": ["styles/app.css"]
 }

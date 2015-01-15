@@ -1,5 +1,13 @@
 # araport-app.json specification
 
+### namespace
+
+**Required**
+Type: `String`
+
+The namespace within which the application is registered. Must be unique within
+the Araport platform
+
 ### name
 
 **Required**
@@ -22,19 +30,19 @@ A description of the application.
 ### html
 
 **Required**
-Type: `String`
+Type: `Array` of `String`
 
-The HTML file that contains the application's layout.
+A List of HTML files that contains the application's layout.
 
 ### scripts
 
 **Required**
-Type: `String`
+Type: `Array` of `String`
 
-The JavaScript file that contains the application's code.
+The JavaScript files that contain the application's code.
 
 ### styles
 
-Type: `String`
+Type: `Array` of `String`
 
-The CSS file that contains additional styles for the application.
+The CSS files that contain additional styles for the application.
