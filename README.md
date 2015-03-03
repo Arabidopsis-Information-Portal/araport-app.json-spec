@@ -35,6 +35,7 @@ The JavaScript file that contains the application's code.
 
 ### styles
 
+*Recommended*
 Type: `String`
 
 The CSS file that contains additional styles for the application.
