@@ -43,6 +43,7 @@ The JavaScript files that contain the application's code.
 
 ### styles
 
+*Recommended*
 Type: `Array` of `String`
 
 The CSS files that contain additional styles for the application.
