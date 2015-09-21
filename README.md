@@ -16,9 +16,6 @@ Type: `String`
 The name of the application.
 
 - Must be unique per namespace.
-- Should be slug style for simplicity, consistency and compatibility. Example: locus-viewer or blast-plus
-- Lowercase, a-z, can contain digits, 0-9, can contain dash or dot but not start/end with them.
-- Consecutive dashes or dots not allowed.
 
 ### description
 
@@ -30,9 +27,9 @@ A description of the application.
 ### html
 
 **Required**
-Type: `Array` of `String`
+Type: `String`
 
-A List of HTML files that contains the application's layout.
+The HTML file that contains the application's layout.
 
 ### scripts
 
