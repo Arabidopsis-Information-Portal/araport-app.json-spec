@@ -2,7 +2,6 @@
 
 ### namespace
 
-**Required**
 Type: `String`
 
 The namespace within which the application is registered. Must be unique within
@@ -23,6 +22,12 @@ The name of the application.
 Type: `String`
 
 A description of the application.
+
+### icon
+*Recommended*
+Type: `String`
+
+Path to an image to be used as an icon in the App Catalog.
 
 ### html
 
